@@ -1,5 +1,7 @@
+=======
+# spring-boot-auth-jwt
 ### JWT Authentication on Spring Boot API
-
+POC Sécurisation Service REST avec JWT
 
 How to secure Spring Boot RESTful APIs with JWTs (JSON Web Tokens). 
 Based on https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/
@@ -72,3 +74,4 @@ curl -H "Content-Type: application/json" \
 ```
 curl -H "Authorization: Bearer xxx.yyy.zzz" http://localhost:8080/tasks
 ```
+
